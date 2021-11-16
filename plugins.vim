@@ -18,10 +18,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
 " Plug 'ryanoasis/vim-devicons' Icons without colours
 Plug 'akinsho/bufferline.nvim'
-Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'preservim/nerdtree' |
-            \ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'karb94/neoscroll.nvim'
 Plug 'morhetz/gruvbox'
 " Initialize plugin system
@@ -30,5 +27,15 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'
 
 Plug 'neoclide/jsonc.vim'
+
+Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
+" Plug 'ryanoasis/vim-devicons' Icons without colours
+Plug 'akinsho/bufferline.nvim'
+
+Plug 'famiu/feline.nvim'
+
+" requires
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
 call plug#end()
 
